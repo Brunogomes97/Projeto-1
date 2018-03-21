@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1521655221 source:c:\users\aluno\desktop\lp1\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521655289 c:\users\aluno\desktop\lp1\imobiliaria\cadastro.h
+
+1521655551 source:c:\users\aluno\desktop\lp1\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521655221 source:d:\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521655289 d:\imobiliaria\cadastro.h
+
