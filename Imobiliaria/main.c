@@ -43,26 +43,26 @@ int main(){
             break;
 
         case 2:
+
+            break;
+        case 3:
             system("cls");
             verificarImoveis(imo);
             break;
 
-        case 3:
-            //ConsultAtributos
-            break;
 
         case 4:
             //ConsultaVendaTipo
             break;
 
         case 5:
-            //AlugaBairro
+            verificarAlugarBairro(imo);
             break;
         case 6:
-            //VendaBairro
+            verificarVendaBairro(imo);
             break;
         case 7:
-            //AtributosCidade
+            verificarCidade(imo);
             break;
         case 8:
             break;
