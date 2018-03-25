@@ -1,5 +1,6 @@
-#ifndef CADASTRO_H_INCLUDED
-#define CADASTRO_H_INCLUDED
+#ifndef cadastro_h
+#define cadastro_h
+
 
 typedef struct {
     int pavimentosC;
@@ -40,13 +41,7 @@ typedef struct {
 
 
 
-void Fcadastro(Timovel [],int, char *);
+void Fcadastro(Timovel[],int, char *);
 void verificarImoveis(Timovel[]);
-void verificarLocal(Timovel local[],int);
-void verificarVenda(Timovel local[],int);
-void verificarAlugarBairro(Timovel local[]);
-void verificarVendaBairro(Timovel local[]);
-void verificarCidade(Timovel local[]);
-void verificarEspecifico(Timovel local[],int);
-#endif
 
+#endif

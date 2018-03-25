@@ -4,12 +4,15 @@
 #include <conio.h>
 #define MAX 100
 #include "cadastro.h"
+#include "verificacao.h"
+
+
 
 Timovel imo[MAX];
 
 int main(){
     int caso;
-    int j=0;
+    int j=0, k=0;
     char imovel[10];
 
 
@@ -43,33 +46,47 @@ int main(){
             break;
 
         case 2:
-
+            system("cls");
+            verificarQuantidade(imo);
             break;
+
         case 3:
             system("cls");
-            verificarImoveis(imo);
+            while(k<MAX)
+            {
+                exibir(imo[k]);
+                k++;
+            }
+            k=0;
+            system("pause");
+            system("cls");
             break;
 
-
         case 4:
-            //ConsultaVendaTipo
+            verificarvenda(imo);
+            system("cls");
             break;
 
         case 5:
+            system("cls");
             verificarAlugarBairro(imo);
+
             break;
         case 6:
+            system("cls");
             verificarVendaBairro(imo);
             break;
         case 7:
+            system("cls");
             verificarCidade(imo);
             break;
         case 8:
             break;
 
         default:
-            system("cls");
             printf("Insira uma entrada valida!\n");
+            system("pause");
+            system("cls");
             break;
         }
 

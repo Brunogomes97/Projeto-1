@@ -24,28 +24,58 @@
 
 1521655289 d:\imobiliaria\cadastro.h
 
-1521655221 source:c:\users\cliente\documents\github\projeto-1\imobiliaria\main.c
+1521821937 source:c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\cadastro.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<conio.h>
 	"cadastro.h"
 
-1521655289 c:\users\cliente\documents\github\projeto-1\imobiliaria\cadastro.h
+1521747297 c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\cadastro.h
 
-1521850357 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\main.c
+1521832765 source:c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+
+1521832591 c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1521832609 source:c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	"verificacao.h"
+	<conio.h>
+
+1521984026 source:c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+
+1521982475 c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\cadastro.h
+
+1521984026 c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1521984026 source:c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\cadastro.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<conio.h>
 	"cadastro.h"
 
-1521850049 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\cadastro.h
-
-1521848117 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\cadastro.c
+1521984771 source:c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\verificacao.c
 	<stdio.h>
-	<stdlib.h>
+	<stdio.h>
 	<string.h>
+	<stdlib.h>
+	"verificacao.h"
 	<conio.h>
-	"cadastro.h"
 
