@@ -79,3 +79,31 @@
 	"verificacao.h"
 	<conio.h>
 
+1522204600 source:d:\user\documents\github\projeto-1\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+	<conio.h>
+
+1522204696 d:\user\documents\github\projeto-1\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522203901 d:\user\documents\github\projeto-1\imobiliaria\cadastro.h
+
+1522203900 source:d:\user\documents\github\projeto-1\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522204600 source:d:\user\documents\github\projeto-1\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+

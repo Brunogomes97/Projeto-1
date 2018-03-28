@@ -7,7 +7,8 @@
 
 void exibir(Timovel);
 void verificarQuantidade(Timovel[]);
-void verificarvenda(Timovel[]);
+void verificarVenda(Timovel[]);
+void verificarAlugar(Timovel[]);
 void verificarAlugarBairro(Timovel[]);
 void verificarVendaBairro(Timovel[]);
 void verificarCidade(Timovel[]);

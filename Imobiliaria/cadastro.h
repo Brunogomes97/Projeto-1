@@ -1,6 +1,6 @@
 #ifndef cadastro_h
 #define cadastro_h
-
+#define DADO 2
 
 typedef struct {
     int pavimentosC;
@@ -14,7 +14,7 @@ typedef struct {
     float areaP;
     int quartosAP;
     int vagasG;
-    char posicao[20];
+    char posicaoP[20];
 
 }TApartamento;
 
@@ -23,10 +23,38 @@ typedef struct {
 
 }Terrenos;
 
+typedef struct {
+    float areaFL;
+    int quartosFL;
+    int vagasFl;
+    char posicaoFL[20];
+    char arFL[DADO];
+    char internet_tvFL[DADO];
+    char lavanderiaFL[DADO];
+    char limpezaFL[DADO];
+    char recepcaoFL[DADO];
 
+}TFlat;
 
 typedef struct {
-    int tipoTimovel;//1-casa 2-ap 3-terreno
+    float areaST;
+    int quartosST;
+    int vagasST;
+    char posicaoST[20];
+    char arST[DADO];
+    char internet_tvST[DADO];
+    char lavanderiaST[DADO];
+    char limpezaST[DADO];
+    char recepcaoST[DADO];
+    char piscinaST[DADO];
+    char saunaST[DADO];
+    char ginasticaST[DADO];
+
+
+}TStudio;
+
+typedef struct {
+    int tipoTimovel;//1-casa 2-ap 3-terreno 4-flat 5-studio
     char rua[40];
     char bairro[20];
     char cidade[20];
@@ -37,8 +65,9 @@ typedef struct {
     TCasa casa;
     TApartamento AP;
     Terrenos Ter;
+    TFlat Flat;
+    TStudio Studio;
 }Timovel;
-
 
 
 void Fcadastro(Timovel[],int, char *);

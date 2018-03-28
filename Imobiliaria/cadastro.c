@@ -28,7 +28,6 @@ void Fendereco(int i,Timovel local[]){
 }
 
 
-
 void Fcadastro(Timovel local[],int i, char *imov){
 
     system("cls");
@@ -59,8 +58,8 @@ void Fcadastro(Timovel local[],int i, char *imov){
         printf("2-Informe o numero de quartos do Apartamento:\n");
         scanf("%d",&local[i].AP.quartosAP);
         printf("3-Informe alguma referencia(posicao):\n");
-        scanf(" %[^\n]s",local[i].AP.posicao);
-        printf("5-Numeros de vagas na garagem?:\n");
+        scanf(" %[^\n]s",local[i].AP.posicaoP);
+        printf("4-Numeros de vagas na garagem?:\n");
         scanf("%d",&local[i].AP.vagasG);
 
     }else if(strcmp(imov,"TERRENO")==0){
@@ -68,6 +67,56 @@ void Fcadastro(Timovel local[],int i, char *imov){
         local[i].tipoTimovel=3;
         printf("1-Insira a area do terreno:\n");
         scanf("%f",&local[i].Ter.areaT);
+
+    }else if(strcmp(imov,"FLAT")==0){
+        Fendereco(i,local);
+        local[i].tipoTimovel=4;
+        printf("1-Informe a area ocupada pelo Flat(em metro quadrados):\n");
+        scanf("%f",&local[i].Flat.areaFL);
+        printf("2-Informe o numero de quartos do Flat:\n");
+        scanf("%d",&local[i].Flat.quartosFL);
+        printf("3-Informe alguma referencia(posicao):\n");
+        scanf(" %[^\n]s",local[i].Flat.posicaoFL);
+        printf("4-Numeros de vagas na garagem?:\n");
+        scanf("%d",&local[i].Flat.vagasFl);
+        printf("5-O Flat possui ar condicionado?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Flat.arFL);
+        printf("6-O Flat possui internet e TV a cabo?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Flat.internet_tvFL);
+        printf("7-O Flat possui serviços de lavanderia?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Flat.lavanderiaFL);
+        printf("8-O Flat possui arrumação/limpeza?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Flat.limpezaFL);
+        printf("9-O Flat possui recepção 24h?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Flat.recepcaoFL);
+
+    }else if(strcmp(imov,"STUDIO")==0){
+        Fendereco(i,local);
+        local[i].tipoTimovel=5;
+        printf("1-Informe a area ocupada pelo Studio(em metro quadrados):\n");
+        scanf("%f",&local[i].Studio.areaST);
+        printf("2-Informe o numero de quartos do Studio:\n");
+        scanf("%d",&local[i].Studio.quartosST);
+        printf("3-Informe alguma referencia(posicao):\n");
+        scanf(" %[^\n]s",local[i].Studio.posicaoST);
+        printf("4-Numeros de vagas na garagem?:\n");
+        scanf("%d",&local[i].Studio.vagasST);
+        printf("5-O Studio possui ar condicionado?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.arST);
+        printf("6-O Studio possui internet e TV a cabo?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.internet_tvST);
+        printf("7-O Studio possui serviços de lavanderia?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.lavanderiaST);
+        printf("8-O Studio possui arrumação/limpeza?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.limpezaST);
+        printf("9-O Studio possui recepção 24h?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.recepcaoST);
+        printf("10-O Studio possui piscina?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.piscinaST);
+        printf("11-O Studio possui sauna?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.saunaST);
+        printf("12-O Studio possui sala de ginastica?(responda com Y/N):\n");
+        scanf(" %[^\n]s",&local[i].Studio.ginasticaST);
 
     }
     system("cls");

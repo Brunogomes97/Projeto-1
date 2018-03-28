@@ -24,10 +24,11 @@ int main(){
         printf("2-Verificar todos os imoveis disponiveis\n\n");
         printf("3-Consulte todos os atributos de um imovel\n\n");
         printf("4-Verificar os imoveis disponiveis para venda\n\n");
-        printf("5-Verificar os imoveis para alugar por bairro\n\n");
-        printf("6-Verificar os imoveis para vender por bairro\n\n");
-        printf("7-Verificar os imoveis disponiveis por cidade\n\n");
-        printf("8-Sair do Programa\n\n");
+        printf("5-Verificar os imoveis disponiveis para venda\n\n");
+        printf("6-Verificar os imoveis para alugar por bairro\n\n");
+        printf("7-Verificar os imoveis para vender por bairro\n\n");
+        printf("8-Verificar os imoveis disponiveis por cidade\n\n");
+        printf("9-Sair do Programa\n\n");
         printf("*************************************************\n");
         printf("Insira a opcao desejada:\n");
         scanf("%d",&caso);
@@ -36,7 +37,7 @@ int main(){
         switch (caso){
 
         case 1:
-            printf("O que deseja cadastrar?(Casa,apartamento ou terreno):\n");
+            printf("O que deseja cadastrar?(Casa,apartamento,terreno,flat,studio):\n");
             scanf(" %[^\n]s",imovel);
             strupr(imovel);
             system("cls");
@@ -63,26 +64,31 @@ int main(){
             break;
 
         case 4:
-            verificarvenda(imo);
+            verificarVenda(imo);
             system("cls");
             break;
 
         case 5:
+            verificarAlugar(imo);
+            system("cls");
+            break;
+        case 6:
             system("cls");
             verificarAlugarBairro(imo);
 
             break;
-        case 6:
+        case 7:
             system("cls");
             verificarVendaBairro(imo);
+
             break;
-        case 7:
+        case 8:
             system("cls");
             verificarCidade(imo);
             break;
-        case 8:
-            break;
+        case 9:
 
+            break;
         default:
             printf("Insira uma entrada valida!\n");
             system("pause");
@@ -90,7 +96,7 @@ int main(){
             break;
         }
 
-    }while(caso!=8);
+    }while(caso!=9);
 
         return 0;
     }
