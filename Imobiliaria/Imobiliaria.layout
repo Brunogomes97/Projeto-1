@@ -2,6 +2,26 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1961" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="cadastro.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1155" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="cadastro.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="125" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="verificacao.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="258" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="verificacao.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="10229" topLine="0" />
@@ -9,36 +29,6 @@
 		<Folding>
 			<Collapse line="8" />
 			<Collapse line="17" />
-			<Collapse line="27" />
-			<Collapse line="36" />
-			<Collapse line="46" />
-			<Collapse line="78" />
-			<Collapse line="126" />
-			<Collapse line="182" />
-			<Collapse line="210" />
-			<Collapse line="223" />
-			<Collapse line="236" />
-			<Collapse line="277" />
 		</Folding>
-	</File>
-	<File name="verificacao.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="258" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1961" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="cadastro.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="190" topLine="27" />
-		</Cursor>
-	</File>
-	<File name="cadastro.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="962" topLine="48" />
-		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

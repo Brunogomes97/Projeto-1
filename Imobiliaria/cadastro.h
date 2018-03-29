@@ -73,5 +73,8 @@ typedef struct {
 
 void Fcadastro(Timovel[],int, char *);
 void verificarImoveis(Timovel[]);
-
+void cadCasa(Timovel[],int);
+void cadAP(Timovel[],int);
+void cadStudio(Timovel[],int);
+void cadFlat(Timovel[],int);
 #endif
