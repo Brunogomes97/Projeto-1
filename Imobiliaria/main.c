@@ -24,7 +24,7 @@ int main(){
         printf("2-Verificar todos os imoveis disponiveis\n\n");
         printf("3-Consulte todos os atributos de um imovel\n\n");
         printf("4-Verificar os imoveis disponiveis para venda\n\n");
-        printf("5-Verificar os imoveis disponiveis para venda\n\n");
+        printf("5-Verificar os imoveis disponiveis para alugar\n\n");
         printf("6-Verificar os imoveis para alugar por bairro\n\n");
         printf("7-Verificar os imoveis para vender por bairro\n\n");
         printf("8-Verificar os imoveis disponiveis por cidade\n\n");

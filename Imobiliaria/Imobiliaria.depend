@@ -107,3 +107,31 @@
 	"cadastro.h"
 	"verificacao.h"
 
+1522348422 source:c:\users\cliente\desktop\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+
+1522348602 c:\users\cliente\desktop\imobiliaria\cadastro.h
+
+1522355243 c:\users\cliente\desktop\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522360172 source:c:\users\cliente\desktop\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522358423 source:c:\users\cliente\desktop\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+	<conio.h>
+

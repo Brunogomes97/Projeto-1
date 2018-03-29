@@ -2,10 +2,16 @@
 #define verificacao_h
 #include "cadastro.h"
 
-
-
-
+//Funçoes de Exibir Imoveis
+void exibirLocal(Timovel);
+void exibirCasa(Timovel);
+void exibirAP(Timovel);
+void exibirFlat(Timovel);
+void exibirStudio(Timovel);
 void exibir(Timovel);
+
+//Funçoes MAIN
+void vendaImovel(Timovel);
 void verificarQuantidade(Timovel[]);
 void verificarVenda(Timovel[]);
 void verificarAlugar(Timovel[]);

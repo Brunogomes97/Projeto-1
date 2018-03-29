@@ -14,6 +14,7 @@ typedef struct {
     float areaP;
     int quartosAP;
     int vagasG;
+    int andarAP;
     char posicaoP[20];
 
 }TApartamento;
@@ -28,11 +29,11 @@ typedef struct {
     int quartosFL;
     int vagasFl;
     char posicaoFL[20];
-    char arFL[DADO];
-    char internet_tvFL[DADO];
-    char lavanderiaFL[DADO];
-    char limpezaFL[DADO];
-    char recepcaoFL[DADO];
+    int arFL;
+    int internet_tvFL;
+    int lavanderiaFL;
+    int limpezaFL;
+    int recepcaoFL;
 
 }TFlat;
 
@@ -41,14 +42,14 @@ typedef struct {
     int quartosST;
     int vagasST;
     char posicaoST[20];
-    char arST[DADO];
-    char internet_tvST[DADO];
-    char lavanderiaST[DADO];
-    char limpezaST[DADO];
-    char recepcaoST[DADO];
-    char piscinaST[DADO];
-    char saunaST[DADO];
-    char ginasticaST[DADO];
+    int arST;
+    int internet_tvST;
+    int lavanderiaST;
+    int limpezaST;
+    int recepcaoST;
+    int piscinaST;
+    int saunaST;
+    int ginasticaST;
 
 
 }TStudio;
@@ -58,8 +59,8 @@ typedef struct {
     char rua[40];
     char bairro[20];
     char cidade[20];
+    char cep[10];
     int numero;
-    int cep;
     int venda;
     float valor;
     TCasa casa;
