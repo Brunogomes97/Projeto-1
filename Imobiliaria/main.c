@@ -5,6 +5,7 @@
 #define MAX 100
 #include "cadastro.h"
 #include "verificacao.h"
+#include "delete.h"
 
 
 
@@ -28,7 +29,8 @@ int main(){
         printf("6-Verificar os imoveis para alugar por bairro\n\n");
         printf("7-Verificar os imoveis para vender por bairro\n\n");
         printf("8-Verificar os imoveis disponiveis por cidade\n\n");
-        printf("9-Sair do Programa\n\n");
+        printf("9-Deletar imovel da lista\n\n");
+        printf("10-Sair do Programa\n\n");
         printf("*************************************************\n");
         printf("Insira a opcao desejada:\n");
         scanf("%d",&caso);
@@ -87,6 +89,13 @@ int main(){
             verificarCidade(imo);
             break;
         case 9:
+            system("cls");
+            deletarImovel(imo);
+            system("pause");
+            system("cls");
+            break;
+
+        case 10:
 
             break;
         default:
@@ -96,7 +105,7 @@ int main(){
             break;
         }
 
-    }while(caso!=9);
+    }while(caso!=10);
 
         return 0;
     }

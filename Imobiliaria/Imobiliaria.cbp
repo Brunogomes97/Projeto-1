@@ -35,6 +35,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="cadastro.h" />
+		<Unit filename="delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="delete.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

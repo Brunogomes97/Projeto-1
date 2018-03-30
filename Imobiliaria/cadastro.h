@@ -1,6 +1,6 @@
 #ifndef cadastro_h
 #define cadastro_h
-#define DADO 2
+
 
 typedef struct {
     int pavimentosC;
@@ -60,9 +60,9 @@ typedef struct {
     char bairro[20];
     char cidade[20];
     char cep[10];
-    int numero;
     int venda;
     float valor;
+    int numero;
     TCasa casa;
     TApartamento AP;
     Terrenos Ter;
@@ -75,6 +75,7 @@ void Fcadastro(Timovel[],int, char *);
 void verificarImoveis(Timovel[]);
 void cadCasa(Timovel[],int);
 void cadAP(Timovel[],int);
+void cadTerreno(Timovel[],int);
 void cadStudio(Timovel[],int);
 void cadFlat(Timovel[],int);
 #endif

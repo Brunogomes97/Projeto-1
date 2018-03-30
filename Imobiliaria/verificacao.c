@@ -12,6 +12,7 @@ void exibirLocal(Timovel x){
     printf("Bairro  - %s\n",x.bairro);
     printf("Rua     - %s\n",x.rua);
     printf("CEP     - %s\n",x.cep);
+    printf("Numero  - %d \n",x.numero);
     printf("Valor   - R$ %.2f\n",x.valor);
 }
 
@@ -27,7 +28,7 @@ void vendaImovel(Timovel x){
 
 void exibirCasa(Timovel x){
     printf("Informacoes especificas\n");
-    printf("Numero da Casa       - %d \n",x.numero);
+
     printf("Numero de Pavimentos - %d \n",x.casa.pavimentosC);
     printf("Numero de Quartos    - %d \n",x.casa.quartosC);
     printf("Area do terreno      - %.2f m^2 \n",x.casa.areaT);
@@ -57,7 +58,7 @@ void exibirFlat(Timovel x){
     if(x.Flat.internet_tvFL == 1)
         printf("Internet e TV     \n");
     if(x.Flat.lavanderiaFL == 1)
-        printf("Lavenderia e Ser. \n");
+        printf("Lavanderia e Ser. \n");
     if(x.Flat.limpezaFL == 1)
         printf("Serv. de limpeza  \n");
     if(x.Flat.recepcaoFL == 1)
@@ -69,7 +70,7 @@ void exibirFlat(Timovel x){
     if(x.Flat.internet_tvFL == 0)
         printf("Internet e TV     \n");
     if(x.Flat.lavanderiaFL == 0)
-        printf("Lavenderia e Ser. \n");
+        printf("Lavanderia e Ser. \n");
     if(x.Flat.limpezaFL == 0)
         printf("Serv. de limpeza  \n");
     if(x.Flat.recepcaoFL == 0)
@@ -77,9 +78,6 @@ void exibirFlat(Timovel x){
 }
 
 void exibirStudio(Timovel x){
-
-
-
 
 
     printf("Informacoes especificas\n");
@@ -136,7 +134,7 @@ void exibir(Timovel local){
            exibirCasa(local);
            printf("***************************\n");
            vendaImovel(local);
-
+           printf("***************************\n\n");
         }else if(local.tipoTimovel == 2){
            printf("***************************************\n");
            printf("AP \n");
@@ -144,9 +142,9 @@ void exibir(Timovel local){
            exibirLocal(local);
            printf("***************************\n");
            exibirAP(local);
-           printf("***************************\n\n");
+           printf("***************************\n");
            vendaImovel(local);
-
+           printf("***************************\n\n");
         }else if(local.tipoTimovel == 3){
            printf("****************************************\n");
            printf("TERRENO \n");
@@ -157,7 +155,7 @@ void exibir(Timovel local){
            printf("Area do  terreno  - %.2f m^2\n",local.Ter.areaT);
            printf("***************************\n");
            vendaImovel(local);
-
+           printf("***************************\n\n");
         }else if(local.tipoTimovel == 4){
             printf("****************************************\n");
             printf("FLAT \n");
@@ -167,7 +165,7 @@ void exibir(Timovel local){
             exibirFlat(local);
             printf("***************************\n");
             vendaImovel(local);
-
+            printf("***************************\n\n");
     }else if(local.tipoTimovel == 5){
             printf("****************************************\n");
             printf("STUDIO \n");
@@ -177,6 +175,7 @@ void exibir(Timovel local){
             exibirStudio(local);
             printf("***************************\n");
             vendaImovel(local);
+            printf("***************************\n\n");
             }
         }
 
