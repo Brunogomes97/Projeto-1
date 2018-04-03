@@ -39,13 +39,17 @@ int main(){
         switch (caso){
 
         case 1:
-            printf("O que deseja cadastrar?(Casa,apartamento,terreno,flat,studio):\n");
-            scanf(" %[^\n]s",imovel);
-            strupr(imovel);
-            system("cls");
-            Fcadastro(imo,j,imovel);
-            j++;
-
+            if(j<MAX){
+                printf("O que deseja cadastrar?(Casa,apartamento,terreno,flat,studio):\n");
+                scanf(" %[^\n]s",imovel);
+                strupr(imovel);
+                Fcadastro(imo,j,imovel);
+                j++;
+            }else{
+                printf("Numero maximo de imoveis ja cadastrados!\n");
+                system("pause");
+                system("cls");
+            }
             break;
 
         case 2:

@@ -65,7 +65,9 @@ void deStudio(Timovel d[],int i){
 void deletarImovel(Timovel x[]){
     int i;
     int n;
+    int sb;
     int p;
+    char imovel[10];
  do{
     for(i=0;i<MAX;i++){//listando imoveis e numeros de cadastro
 
@@ -115,6 +117,14 @@ void deletarImovel(Timovel x[]){
                 x[n].tipoTimovel=0;
 
             printf("Imovel deletado com sucesso!\n");
+            printf("Deseja sobrescrever o imovel deletado?(SIM - 1  | NAO - Qualquer outro numero)\n");
+            scanf("%d",&sb);
+            if(sb==1){
+               printf("O que deseja cadastrar?(Casa,apartamento,terreno,flat,studio):\n");
+               scanf(" %[^\n]s",imovel);
+               strupr(imovel);
+               Fcadastro(x,n,imovel);
+            }
         }else {
             printf("Erro ao deletar o imovel correspondente!\n");
         }

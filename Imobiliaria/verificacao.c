@@ -46,7 +46,7 @@ void exibirAP(Timovel x){
 
 void exibirFlat(Timovel x){
     printf("Informacoes especificas\n");
-    printf("Area do Flat   - %.2f m^2:\n",x.Flat.areaFL);
+    printf("Area do Flat          - %.2f m^2:\n",x.Flat.areaFL);
     printf("Numero de Quartos     - %d\n",x.Flat.quartosFL);
     printf("Posicao(referencia)   - %s\n",x.Flat.posicaoFL);
     printf("N de vagas na garagem - %d\n",x.Flat.vagasFl);
@@ -258,9 +258,7 @@ void verificarAlugarBairro(Timovel local[]){
                 if(strcmp(x,p)==0){
                    exibir(local[i]);
                 }
-                else{
-                    continue;
-                }
+
             }
 
             printf("Digite 1 para sair ou qualquer numero para pesquisar novamente:\n");
@@ -299,9 +297,7 @@ void verificarVendaBairro(Timovel local[]){
                 if(strcmp(x,p)==0){
                     exibir(local[i]);
                 }
-                else{
-                    continue;
-                }
+
             }
 
             printf("Digite 1 para sair ou qualquer numero para pesquisar novamente:\n");
@@ -338,9 +334,6 @@ void verificarCidade(Timovel local[]){
                 strupr(p);
                 if(strcmp(x,p)==0){
                     exibir(local[i]);
-                }
-                else{
-                    continue;
                 }
             }
 

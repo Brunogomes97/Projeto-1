@@ -135,7 +135,7 @@
 	"verificacao.h"
 	<conio.h>
 
-1522438161 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\cadastro.c
+1522785081 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\cadastro.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -144,7 +144,7 @@
 
 1522437182 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\cadastro.h
 
-1522779063 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\main.c
+1522782716 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -156,13 +156,13 @@
 1522355243 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\verificacao.h
 	"cadastro.h"
 
-1522778701 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\verificacao.c
+1522786360 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\verificacao.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
 	"verificacao.h"
 
-1522779195 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\delete.c
+1522784189 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\delete.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
