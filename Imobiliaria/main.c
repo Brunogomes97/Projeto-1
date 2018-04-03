@@ -91,8 +91,7 @@ int main(){
         case 9:
             system("cls");
             deletarImovel(imo);
-            system("pause");
-            system("cls");
+
             break;
 
         case 10:

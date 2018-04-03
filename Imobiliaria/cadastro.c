@@ -20,16 +20,16 @@ void Fendereco(int i,Timovel local[]){
         scanf(" %[^\n]s",local[i].bairro);
         printf("3-Informe o logradouro(rua) do imovel:\n");
         scanf(" %[^\n]s",local[i].rua);
-        printf("4-Insira o numero do imovel:\n");
+        printf("4-Insira o numero do Imovel:\n");
         scanf("%d",&local[i].numero);
         printf("5-Insira o CEP:\n");
         scanf(" %[^\n]s",local[i].cep);
-        printf("6-Informe o valor do imovel:\n");
+        printf("6-Informe o valor do Imovel:\n");
         scanf("%f",&local[i].valor);
-        printf("7-Disponibilidade do imovel(1-Venda|2-Nao esta a venda|3-Alugar):\n");
+        printf("7-Disponibilidade do imovel(1-Venda|2-Nao esta a Venda|3-Alugar):\n");
         scanf("%d",&local[i].venda);
 
-        printf("Deseja salvar as alteracoes de LOCALIZACAO?(1-SIM ou qualquer numero para repetir o preenchimento)\n");
+        printf("Deseja salvar as alteracoes de LOCALIZACAO?(1-SIM ou Qualquer numero para Repetir o Preenchimento)\n");
         scanf("%d",&x);
         system("cls");
     }while(x!=1);
@@ -90,12 +90,12 @@ void cadCasa(Timovel local[],int i){
         scanf("%d",&local[i].casa.pavimentosC);
         printf("2-Insira o numero de quartos da casa:\n");
         scanf("%d",&local[i].casa.quartosC);
-        printf("3-Area do terreno(em metros quadrados):\n");
+        printf("3-Area do terreno(em metros quadrados:\n");
         scanf("%f",&local[i].casa.areaT);
         printf("4-Area do terreno construida(em metros quadrados):\n");
         scanf("%f",&local[i].casa.areaC);
 
-        printf("Deseja salvar as alteracoes do Imovel CASA?(1-SIM ou Qualquer numero para repetir o preenchimento)\n");
+        printf("Deseja salvar as alteracoes do Imovel CASA?(1-SIM ou Qualquer numero para Repetir o Preenchimento)\n");
         scanf("%d",&x);
         system("cls");
 
@@ -119,7 +119,7 @@ void cadAP(Timovel local[],int i){
         printf("5-Numero de Andares:\n");
         scanf("%d",&local[i].AP.andarAP);
 
-        printf("Deseja salvar as alteracoes do imovel APARTAMENTO?(1-SIM ou qualquer numero para repetir o preenchimento)\n");
+        printf("Deseja salvar as alteracoes do imovel APARTAMENTO?(1-SIM ou Qualquer numero para Repetir o Preenchimento)\n");
         scanf("%d",&x);
         system("cls");
     }while(x!=1);
@@ -158,7 +158,7 @@ void cadStudio(Timovel local[],int i){
         printf("12-O Studio possui sala de ginastica?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Studio.ginasticaST);
 
-        printf("Deseja salvar as alteracoes do imovel STUDIO?(1-SIM ou qualquer numero para repetir o preenchimento)\n");
+        printf("Deseja salvar as alteracoes do imovel STUDIO?(1-SIM ou Qualquer numero para Repetir o Preenchimento)\n");
         scanf("%d",&x);
         system("cls");
     }while(x!=1);
@@ -182,14 +182,14 @@ void cadFlat(Timovel local[],int i){
         scanf("%d",&local[i].Flat.arFL);
         printf("6-O Flat possui internet e TV a cabo?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Flat.internet_tvFL);
-        printf("7-O Flat possui servicos de lavanderia?(Sim - 1/Nao - 0):\n");
+        printf("7-O Flat possui serviços de lavanderia?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Flat.lavanderiaFL);
         printf("8-O Flat possui arrumacao/limpeza?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Flat.limpezaFL);
         printf("9-O Flat possui recepcao 24h?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Flat.recepcaoFL);
 
-        printf("Deseja salvar as alteracoes do imovel FLAT?(1-SIM ou qualquer numero para repetir o preenchimento)\n");
+        printf("Deseja salvar as alteracoes do imovel FLAT?(1-SIM ou Qualquer numero para Repetir o Preenchimento)\n");
         scanf("%d",&x);
         system("cls");
     }while(x!=1);

@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 #define MAX 100
 #include "verificacao.h"
-#include <conio.h>
+
 
 void exibirLocal(Timovel x){
     printf("Informacoes de localizacao:\n");
@@ -28,6 +27,7 @@ void vendaImovel(Timovel x){
 
 void exibirCasa(Timovel x){
     printf("Informacoes especificas\n");
+
     printf("Numero de Pavimentos - %d \n",x.casa.pavimentosC);
     printf("Numero de Quartos    - %d \n",x.casa.quartosC);
     printf("Area do terreno      - %.2f m^2 \n",x.casa.areaT);
@@ -46,7 +46,7 @@ void exibirAP(Timovel x){
 
 void exibirFlat(Timovel x){
     printf("Informacoes especificas\n");
-    printf("Area do Flat          - %.2f m^2:\n",x.Flat.areaFL);
+    printf("Area do Flat   - %.2f m^2:\n",x.Flat.areaFL);
     printf("Numero de Quartos     - %d\n",x.Flat.quartosFL);
     printf("Posicao(referencia)   - %s\n",x.Flat.posicaoFL);
     printf("N de vagas na garagem - %d\n",x.Flat.vagasFl);

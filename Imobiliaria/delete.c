@@ -5,7 +5,7 @@
 #include "delete.h"
 #include "cadastro.h"
 #include "verificacao.h"
-#include <conio.h>
+
 
 
 void deLocal(Timovel d[],int i){
@@ -104,20 +104,23 @@ void deletarImovel(Timovel x[]){
 
     printf("Insira a numeracao do imovel que deseja deletar:\n");
     scanf("%d",&n);
-    if(x[n].tipoTimovel!=0){
-            deLocal(x,n);
-            deCasa(x,n);
-            deFlat(x,n);
-            deStudio(x,n);
-            deTer(x,n);
-            deAP(x,n);
-            x[n].tipoTimovel=0;
+    if(n<MAX){
+        if(x[n].tipoTimovel!=0){
+                deLocal(x,n);
+                deCasa(x,n);
+                deFlat(x,n);
+                deStudio(x,n);
+                deTer(x,n);
+                deAP(x,n);
+                x[n].tipoTimovel=0;
 
-        printf("Imovel deletado com sucesso!\n");
-    }else {
-        printf("Erro ao deletar o imovel correspondente!\n");
+            printf("Imovel deletado com sucesso!\n");
+        }else {
+            printf("Erro ao deletar o imovel correspondente!\n");
+        }
+    }else{
+        printf("Numero de cadastro acima do maximo permitido!\n");
     }
-
     printf("Deseja Sair?(SIM - 1 ou qualquer numero para deletar outro imovel)\n");
     scanf("%d",&p);
     system("cls");
