@@ -6,6 +6,7 @@
 #include "cadastro.h"
 #include "verificacao.h"
 #include "delete.h"
+#include "arquivo.h"
 
 
 
@@ -15,7 +16,7 @@ int main(){
     int caso;
     int j=0, k=0;
     char imovel[10];
-
+    j = puxarArquivo(imo,j);
 
     do{
         printf("*************************************************\n");
@@ -99,7 +100,7 @@ int main(){
             break;
 
         case 10:
-
+        salvarArquivo(imo,j);
             break;
         default:
             printf("Insira uma entrada valida!\n");
