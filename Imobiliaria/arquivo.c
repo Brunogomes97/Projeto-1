@@ -52,15 +52,15 @@ int puxarArquivo(Timovel local[], int i){
             fscanf(terreno,"%f",&local[i].Ter.areaT);
         }
         if(local[i].tipoTimovel==4){
-            fscanf(flat,"%f",&local[i].Studio.areaST);
-            fscanf(flat,"%d",&local[i].Studio.quartosST);
-            fscanf(flat," %[^\n]s",local[i].Studio.posicaoST);
-            fscanf(flat,"%d",&local[i].Studio.vagasST);
-            fscanf(flat,"%d",&local[i].Studio.arST);
-            fscanf(flat,"%d",&local[i].Studio.internet_tvST);
-            fscanf(flat,"%d",&local[i].Studio.lavanderiaST);
-            fscanf(flat,"%d",&local[i].Studio.limpezaST);
-            fscanf(flat,"%d",&local[i].Studio.recepcaoST);
+            fscanf(flat,"%f",&local[i].Flat.areaFL);
+            fscanf(flat,"%d",&local[i].Flat.quartosFL);
+            fscanf(flat," %[^\n]s",local[i].Flat.posicaoFL);
+            fscanf(flat,"%d",&local[i].Flat.vagasFl);
+            fscanf(flat,"%d",&local[i].Flat.arFL);
+            fscanf(flat,"%d",&local[i].Flat.internet_tvFL);
+            fscanf(flat,"%d",&local[i].Flat.lavanderiaFL);
+            fscanf(flat,"%d",&local[i].Flat.limpezaFL);
+            fscanf(flat,"%d",&local[i].Flat.recepcaoFL);
         }
         if(local[i].tipoTimovel==5){
             fscanf(studio,"%f",&local[i].Studio.areaST);

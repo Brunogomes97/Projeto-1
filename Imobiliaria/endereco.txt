@@ -30,14 +30,14 @@ Av Prof Jose Antonio
 600000.00
 1
 3
-Rio de Janeiro
-Copacabana
-Felipe de Oliveira
-3012
-65320030
-1000000.00
+macapa
+jose de almeida
+av joao silva
+123
+15900-040
+30000.00
+1
 3
-4
 Joao Pessoa
 Portal do Sol
 Profa Josefa di Lorenzo Souza
@@ -45,4 +45,12 @@ Profa Josefa di Lorenzo Souza
 58046700
 50000.00
 1
+1
+Campina Grande
+Liberdade
+av souza de lima
+129
+54200030
+350000.00
+3
 1

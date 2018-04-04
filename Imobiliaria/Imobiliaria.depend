@@ -286,3 +286,97 @@
 	<stdlib.h>
 	"verificacao.h"
 
+1522859828 source:c:\users\aluno\desktop\projeto-1-master\imobiliaria\arquivo.c
+	<stdio.h>
+	"cadastro.h"
+	"arquivo.h"
+
+1522833842 c:\users\aluno\desktop\projeto-1-master\imobiliaria\cadastro.h
+
+1522833842 c:\users\aluno\desktop\projeto-1-master\imobiliaria\arquivo.h
+	"cadastro.h"
+
+1522833842 source:c:\users\aluno\desktop\projeto-1-master\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522833842 source:c:\users\aluno\desktop\projeto-1-master\imobiliaria\delete.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"delete.h"
+	"cadastro.h"
+	"verificacao.h"
+
+1522833842 c:\users\aluno\desktop\projeto-1-master\imobiliaria\delete.h
+	"cadastro.h"
+
+1522833842 c:\users\aluno\desktop\projeto-1-master\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522833842 source:c:\users\aluno\desktop\projeto-1-master\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+	"delete.h"
+	"arquivo.h"
+
+1522833842 source:c:\users\aluno\desktop\projeto-1-master\imobiliaria\verificacao.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+
+1522859828 source:f:\imobiliaria\arquivo.c
+	<stdio.h>
+	"cadastro.h"
+	"arquivo.h"
+
+1522833842 f:\imobiliaria\cadastro.h
+
+1522833842 f:\imobiliaria\arquivo.h
+	"cadastro.h"
+
+1522833842 source:f:\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522833842 source:f:\imobiliaria\delete.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"delete.h"
+	"cadastro.h"
+	"verificacao.h"
+
+1522833842 f:\imobiliaria\delete.h
+	"cadastro.h"
+
+1522833842 f:\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522833842 source:f:\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+	"delete.h"
+	"arquivo.h"
+
+1522833842 source:f:\imobiliaria\verificacao.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+
