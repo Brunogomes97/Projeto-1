@@ -170,7 +170,7 @@ void cadFlat(Timovel local[],int i){
         printf("******************************************\n");
         printf("Insira as informacoes especificas do Flat:\n");
         printf("******************************************\n");
-        printf("1-Informe a area ocupada pelo Flat(em metro quadrados):\n");
+        printf("1-Informe a area ocupada pelo Flat(em metros quadrados):\n");
         scanf("%f",&local[i].Flat.areaFL);
         printf("2-Informe o numero de quartos do Flat:\n");
         scanf("%d",&local[i].Flat.quartosFL);

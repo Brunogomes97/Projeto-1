@@ -2,6 +2,8 @@
 #include "cadastro.h"
 #include "arquivo.h"
 
+int x;
+
 int puxarArquivo(Timovel local[], int i){
 
     FILE *endereco;
@@ -24,9 +26,9 @@ int puxarArquivo(Timovel local[], int i){
     printf("entrou no if\n");
     while(!feof(endereco)){
 
-        fscanf(endereco,"%s",local[i].cidade);
-        fscanf(endereco,"%s",local[i].bairro);
-        fscanf(endereco,"%s",local[i].rua);
+        fscanf(endereco," %[^\n]s",local[i].cidade);
+        fscanf(endereco," %[^\n]s",local[i].bairro);
+        fscanf(endereco," %[^\n]s",local[i].rua);
         fscanf(endereco,"%d",&local[i].numero);
         fscanf(endereco,"%s",local[i].cep);
         fscanf(endereco,"%f",&local[i].valor);
@@ -42,7 +44,7 @@ int puxarArquivo(Timovel local[], int i){
         if(local[i].tipoTimovel==2){
             fscanf(apartamento,"%f",&local[i].AP.areaP);
             fscanf(apartamento,"%d",&local[i].AP.quartosAP);
-            fscanf(apartamento,"%s",local[i].AP.posicaoP);
+            fscanf(apartamento," %[^\n]s",local[i].AP.posicaoP);
             fscanf(apartamento,"%d",&local[i].AP.vagasG);
             fscanf(apartamento,"%d",&local[i].AP.andarAP);
         }
@@ -52,7 +54,7 @@ int puxarArquivo(Timovel local[], int i){
         if(local[i].tipoTimovel==4){
             fscanf(flat,"%f",&local[i].Studio.areaST);
             fscanf(flat,"%d",&local[i].Studio.quartosST);
-            fscanf(flat,"%s",local[i].Studio.posicaoST);
+            fscanf(flat," %[^\n]s",local[i].Studio.posicaoST);
             fscanf(flat,"%d",&local[i].Studio.vagasST);
             fscanf(flat,"%d",&local[i].Studio.arST);
             fscanf(flat,"%d",&local[i].Studio.internet_tvST);
@@ -63,7 +65,7 @@ int puxarArquivo(Timovel local[], int i){
         if(local[i].tipoTimovel==5){
             fscanf(studio,"%f",&local[i].Studio.areaST);
             fscanf(studio,"%d",&local[i].Studio.quartosST);
-            fscanf(studio,"%s",local[i].Studio.posicaoST);
+            fscanf(studio," %[^\n]s",local[i].Studio.posicaoST);
             fscanf(studio,"%d",&local[i].Studio.vagasST);
             fscanf(studio,"%d",&local[i].Studio.arST);
             fscanf(studio,"%d",&local[i].Studio.internet_tvST);
@@ -104,7 +106,7 @@ void salvarArquivo(Timovel local[],int j){
     flat = fopen("flat.txt", "w");
     studio = fopen("studio.txt", "w");
 
-    for(int x=0; x<j;x++){
+    for(x=0; x<j;x++){
         if(local[x].tipoTimovel!=0){
             fprintf(endereco,"%s\n",local[x].cidade);
             fprintf(endereco,"%s\n",local[x].bairro);

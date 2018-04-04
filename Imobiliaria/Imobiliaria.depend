@@ -192,3 +192,97 @@
 	"cadastro.h"
 	"arquivo.h"
 
+1522841798 source:c:\users\cliente\documents\github\projeto-1\imobiliaria\arquivo.c
+	<stdio.h>
+	"cadastro.h"
+	"arquivo.h"
+
+1522841798 c:\users\cliente\documents\github\projeto-1\imobiliaria\cadastro.h
+
+1522841798 c:\users\cliente\documents\github\projeto-1\imobiliaria\arquivo.h
+	"cadastro.h"
+
+1522841798 source:c:\users\cliente\documents\github\projeto-1\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522841798 source:c:\users\cliente\documents\github\projeto-1\imobiliaria\delete.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"delete.h"
+	"cadastro.h"
+	"verificacao.h"
+
+1522841798 c:\users\cliente\documents\github\projeto-1\imobiliaria\delete.h
+	"cadastro.h"
+
+1522841798 c:\users\cliente\documents\github\projeto-1\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522841798 source:c:\users\cliente\documents\github\projeto-1\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+	"delete.h"
+	"arquivo.h"
+
+1522841798 source:c:\users\cliente\documents\github\projeto-1\imobiliaria\verificacao.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+
+1522845072 source:d:\imobiliaria - arquivos\arquivo.c
+	<stdio.h>
+	"cadastro.h"
+	"arquivo.h"
+
+1522841798 d:\imobiliaria - arquivos\cadastro.h
+
+1522841798 d:\imobiliaria - arquivos\arquivo.h
+	"cadastro.h"
+
+1522846921 source:d:\imobiliaria - arquivos\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522841798 source:d:\imobiliaria - arquivos\delete.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"delete.h"
+	"cadastro.h"
+	"verificacao.h"
+
+1522841798 d:\imobiliaria - arquivos\delete.h
+	"cadastro.h"
+
+1522841798 d:\imobiliaria - arquivos\verificacao.h
+	"cadastro.h"
+
+1522841798 source:d:\imobiliaria - arquivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+	"delete.h"
+	"arquivo.h"
+
+1522841798 source:d:\imobiliaria - arquivos\verificacao.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+

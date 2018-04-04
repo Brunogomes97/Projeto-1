@@ -1,0 +1,48 @@
+Macapa
+Centro
+Av Souza
+784
+500650900
+520000.00
+1
+1
+Campina Grande
+Palmeira
+Av Professor Balbino
+451
+51300020
+350000.00
+3
+2
+Joao Pessoa
+Alto do Ceu
+Av das laranjeiras
+125
+52950030
+1000000.00
+1
+5
+Sao Paulo
+Barra Funda
+Av Prof Jose Antonio
+3501
+54202300
+600000.00
+1
+3
+Rio de Janeiro
+Copacabana
+Felipe de Oliveira
+3012
+65320030
+1000000.00
+3
+4
+Joao Pessoa
+Portal do Sol
+Profa Josefa di Lorenzo Souza
+102
+58046700
+50000.00
+1
+1
